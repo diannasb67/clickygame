@@ -9,7 +9,6 @@ import flowers from "./flowers.json";
 class App extends React.Component {
   state = {
     count: 0
-
   };
 
   handleIncrement = () => {
@@ -35,56 +34,47 @@ class App extends React.Component {
             </nav>
         {/* <Navbar /> */}
         <FlowerCard>
-          <button onClick={this.handleIncrement}>
+          
             <FlowerCard
               image={flowers[0].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[1].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[2].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[3].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[4].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[5].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[6].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[7].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[8].image}
+              click={this.handleIncrement}
             />
-          </button>
-          <button onClick={this.handleIncrement}>
-            <FlowerCard
+              <FlowerCard
               image={flowers[9].image}
+              click={this.handleIncrement}
             />
-          </button>
 
         </FlowerCard>
 
