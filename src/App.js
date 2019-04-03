@@ -4,12 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import FlowerCard from "./components/FlowerCard/image";
 import flowers from "./flowers.json";
 
-
 class App extends React.Component {
   state = {
     count: 0
   };
-
 
   handleIncrement = () => {
     this.setState({ count: this.state.count + 1 });
@@ -19,6 +17,7 @@ class App extends React.Component {
 
   render() {
 
+    
     return (
       <div>
         <nav className="navbar navbar-dark bg-dark navnav">

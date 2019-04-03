@@ -10,11 +10,4 @@ const FlowerCard = (props) => {
 }
 
 
-
-
-
-
-
-
-
 export default FlowerCard;
